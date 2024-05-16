@@ -8,8 +8,8 @@ Before you run the script, ensure you have Python 3.8.3 installed on your system
 ## Installation
 Clone this repository to your local machine:
 ```
-git clone https://github.com/yourusername/vcf-simulation-tool.git
-cd vcf-simulation-tool
+git clone https://github.com/chvbs2000/lcWGS_simulation.git
+cd lcWGS_simulation
 ```
 
 ## Usage
