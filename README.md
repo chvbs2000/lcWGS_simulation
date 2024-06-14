@@ -11,6 +11,24 @@ Clone this repository to your local machine:
 git clone https://github.com/chvbs2000/lcWGS_simulation.git
 cd lcWGS_simulation
 ```
+## Package Versions Used:
+This project uses the following package versions:
+
+| Package        | Version   |
+| -------------- | --------- |
+| subprocess     | (standard library) |
+| argparse       | 1.1       |
+| multiprocessing| (standard library) |
+| numpy          | 1.22.4    |
+| random         | (standard library) |
+| gzip           | (standard library) |
+| allel          | 1.3.2     |
+| decimal        | (standard library) |
+| pandas         | 2.0.3     |
+| os             | (standard library) |
+| scikit-learn   | 1.3.0     |
+| datetime       | (standard library) |
+
 
 ## Usage
 To use the script, you need to provide it with a VCF file and specify an output directory where the results will be stored. Here is the basic command structure:
