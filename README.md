@@ -2,6 +2,7 @@
 A tool to simulate lcWGS MGMMs. This repository contains a Python script `simulate_1x.py` designed to process high-coverage whole-genome sequencing VCF files. The script takes an input VCF file and generates outputs in a directory of interest.
 
 <img src="image/workflow.png">
+(The figure is Created with BioRender.com)
 
 ## Installation
 Clone this repository to your local machine:
