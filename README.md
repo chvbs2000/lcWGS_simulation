@@ -56,7 +56,6 @@ To use the script, you need to provide it with a VCF file and specify an output 
 python3 simulate_1x.py --input_vcf $vcf --output_dir $myoutdir
 ```
 
-## Parameters
 - `--input_vcf`: The path to the input VCF file. This should be a high-coverage whole-genome sequencing VCF file, for example, NA12878.chr22.30x.vcf.gz.
 - `--output_dir`: The directory where the output files will be saved. If the directory does not exist, the script will create it.
 
