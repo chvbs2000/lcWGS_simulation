@@ -66,7 +66,7 @@ Here is an example command using a specific VCF file and output directory:
 ```
 python3 simulate_1x.py --input_vcf ./demo_data/NA12878.chr22.30x.subset.vcf.gz --output_dir ./output
 ```
-This command processes the VCF file NA12878.chr22.30x.subset.vcf.gz and places the output in the ./output directory. Make sure the output directory exist before run the code.
+This command processes the VCF file NA12878.chr22.30x.subset.vcf.gz and places the output in the ./output directory. The output file in this test case will be `NA12878.chr22.30x.subset.simulated.lc.vcf.gz`. Make sure the output directory exist before run the code.
 
 ## Output
 The script will generate a BGZF-compressed format simulated VCF files:
