@@ -1,7 +1,7 @@
 # lcWGS_simulation
 A tool to simulate lcWGS MGMMs. This repository contains a Python script `simulate_1x.py` designed to process high-coverage whole-genome sequencing VCF files. The script takes an input VCF file and generates outputs in a directory of interest.
 
-<img src="image/workflow.png" wdith="80">
+<img src="image/workflow.png" width="50">
 
 ## Prerequisites
 Before you run the script, ensure you have Python 3.8.3 installed on your system. You can download Python 3 from the official Python website.
