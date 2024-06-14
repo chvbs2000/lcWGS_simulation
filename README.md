@@ -33,6 +33,7 @@ Ensure that the listed versions are installed in your environment for compatibil
 
 ```bash
 pip install numpy==1.22.4 pandas==1.3.3 scikit-learn==0.24.2 scikit-allel==1.3.3
+```
 
 ## Usage
 To use the script, you need to provide it with a VCF file and specify an output directory where the results will be stored. Here is the basic command structure:
