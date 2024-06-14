@@ -3,17 +3,17 @@ A tool to simulate lcWGS MGMMs. This repository contains a Python script `simula
 
 <img src="image/workflow.png">
 
-## Prerequisites
-Before you run the script, ensure you have Python 3.8.3 installed on your system. You can download Python 3 from the official Python website.
-
-
 ## Installation
 Clone this repository to your local machine:
 ```
 git clone https://github.com/chvbs2000/lcWGS_simulation.git
 cd lcWGS_simulation
 ```
-## Package Versions Used:
+
+## Prerequisites
+Before you run the script, ensure you have Python 3.8.3 installed on your system. You can download Python 3 from the official Python website.
+
+### Package Versions Used:
 This project uses the following package versions:
 
 | Package        | Version   |
