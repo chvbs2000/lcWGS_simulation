@@ -29,11 +29,20 @@ This project uses the following package versions:
 | scikit-learn   | 1.3.0     |
 | datetime       | (standard library) |
 
+
 Ensure that the listed versions are installed in your environment for compatibility. You can install the specified versions using `pip` with the following command:
 
 ```bash
 pip install numpy==1.22.4 pandas==1.3.3 scikit-learn==0.24.2 scikit-allel==1.3.3
 ```
+### If using virtualenv
+python -m venv myenv
+source myenv/bin/activate
+pip install numpy==1.22.4 pandas==1.3.3 scikit-learn==0.24.2 scikit-allel==1.3.3
+
+### If using conda
+conda create --name myenv numpy=1.22.4 pandas=1.3.3 scikit-learn=0.24.2 scikit-allel=1.3.3
+conda activate myenv
 
 ## Usage
 To use the script, you need to provide it with a VCF file and specify an output directory where the results will be stored. Here is the basic command structure:
