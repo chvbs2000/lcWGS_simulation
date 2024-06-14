@@ -237,7 +237,7 @@ if __name__ == "__main__":
     tbi_dir = "{}.tbi".format(input_vcf)
     posfile = "{}/{}.position".format(args.output_dir,pos_name)
     print("posfile:", posfile)
-    output_file = os.path.join(args.output_dir, ".".join(file_name) + ".simulated.vcf")
+    output_file = os.path.join(args.output_dir, ".".join(file_name) + ".simulated.lc.vcf")
 
     extract_pos_cmd = "zcat {} | grep -v '#' | cut -f1-5 > {}/{}.position".format(input_vcf, args.output_dir, pos_name)
     result_extract = subprocess.run(extract_pos_cmd, shell=True, capture_output=True, text=True)
