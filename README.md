@@ -68,7 +68,7 @@ This command processes the VCF file NA12878.chr22.30x.vcf.gz and places the outp
 
 ## Output
 The script will generate a BGZF-compressed format simulated VCF files:
-![](image/example_output_vcf.png)
+<img src="image/example_output_vcf.png">
 
 Ensure you have enough disk space and the necessary permissions to write to the directory.
 
