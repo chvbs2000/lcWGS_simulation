@@ -69,7 +69,10 @@ This command processes the VCF file NA12878.chr22.30x.vcf.gz and places the outp
 
 
 ## Output
-The script will generate several files in the specified output directory, depending on the processing performed within the script. Ensure you have enough disk space and the necessary permissions to write to the directory.
+The script will generate a BGZF-compressed format simulated VCF files:
+
+
+Ensure you have enough disk space and the necessary permissions to write to the directory.
 
 ## Example of VCF preparation:
 - Download NA12878 chr22 30x: The New York Genome Center and the 1000 Genomes Project have released 30x coverage data for NA12878. For downloading this data, please refer the official documentation at the following URL:
