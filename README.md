@@ -65,7 +65,7 @@ Here is an example command using a specific VCF file and output directory:
 ```
 python3 simulate_1x.py --input_vcf ./demo_data/NA12878.chr22.1x.subset.vcf.gz --output_dir ./output
 ```
-This command processes the VCF file NA12878.chr22.30x.vcf.gz and places the output in the ./output directory. Make sure the output directory exist before run the code.
+This command processes the VCF file NA12878.chr22.1x.subset.vcf.gz and places the output in the ./output directory. Make sure the output directory exist before run the code.
 
 ## Output
 The script will generate a BGZF-compressed format simulated VCF files:
@@ -83,7 +83,7 @@ Ensure you have enough disk space and the necessary permissions to write to the 
 - Downsampling 30x to 1x
 ```
 HG38_FASTA="GCA_000001405.15_GRCh38_no_alt_analysis_set.fna"
-cram=""
+cram=$cram
 samtools view -T ${HG38_FASTA} -s 1.0333 -bo NA12878.final.chr22.1x.bam $myoutdir/$sample/cram/$cram;
 samtools index NA12878.final.chr22.1x.bam
 ```
