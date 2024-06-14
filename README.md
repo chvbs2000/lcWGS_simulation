@@ -58,19 +58,17 @@ python3 simulate_1x.py --input_vcf $vcf --output_dir $myoutdir
 - `--input_vcf`: The path to the input VCF file. This should be a high-coverage whole-genome sequencing VCF file, for example, NA12878.chr22.30x.vcf.gz.
 - `--output_dir`: The directory where the output files will be saved. If the directory does not exist, the script will create it.
 
-## Example Command
-Here is an example command using a specific VCF file and output directory:
-```
-python3 simulate_1x.py --input_vcf NA12878.chr22.30x.vcf.gz --output_dir ./output
-```
-This command processes the VCF file NA12878.chr22.30x.vcf.gz and places the output in the ./output directory.
-
 ### Test case: simulate chromosome 22 for genome build GRCh38
 
+Here is an example command using a specific VCF file and output directory:
+```
+python3 simulate_1x.py --input_vcf ./demo_data/NA12878.chr22.1x.subset.vcf.gz --output_dir ./output
+```
+This command processes the VCF file NA12878.chr22.30x.vcf.gz and places the output in the ./output directory. Make sure the output directory exist before run the code.
 
 ## Output
 The script will generate a BGZF-compressed format simulated VCF files:
-
+<img src="image/example_output_vcf.png">
 
 Ensure you have enough disk space and the necessary permissions to write to the directory.
 
